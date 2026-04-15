@@ -1,0 +1,20 @@
+{
+  "name": "taller-logica-ts",
+  "version": "1.0.0",
+  "description": "Migración de ejercicios de lógica de JavaScript a TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "hotel": "npx ts-node hotelreservas.ts",
+    "cajero": "npx ts-node cajeroautomatico.ts",
+    "carrito": "npx ts-node carritocompra.ts",
+    "digiturno": "npx ts-node digiturno.ts",
+    "estadio": "npx ts-node boletaestadio.ts"
+  },
+  "author": "Samuel David Giraldo Bedoya",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
